@@ -13,7 +13,7 @@ from constants import (CommandKey, CommandList, Creator, CreatorSocials,
 from bs4 import BeautifulSoup
 
 #Variables
-client = discord.Client()
+client = discord.Client(intents=discord.Intents.default())
 embedColour = 0x00ff00
 
 #####################################################################################################
